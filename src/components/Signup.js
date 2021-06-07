@@ -1,10 +1,10 @@
 import React from 'react';
-import "./navbar/Navbar.css";
-import "./formfield/FormField.css";
-import "./coolbutton/CoolButton.css";
-import Navbar from './navbar/Navbar.js';
-import FormField from './formfield/FormField.js';
-import CoolButton from './coolbutton/CoolButton.js';
+import "../navbar/Navbar.css";
+import "../formfield/FormField.css";
+import "../coolbutton/CoolButton.css";
+import Navbar from '../navbar/Navbar.js';
+import FormField from '../formfield/FormField.js';
+import CoolButton from '../coolbutton/CoolButton.js';
 
 function Signup() {
     return (
