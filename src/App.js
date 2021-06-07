@@ -15,7 +15,9 @@ const App = () => {
       <CoolButton className="btn_danger" btnText="Button 1" />
       <CoolButton className="btn_success"  btnText="Button 2" />
     </>*/
-    <Signup />
+    <div className="App">
+      <Signup />
+    </div>
   );
 };
 
