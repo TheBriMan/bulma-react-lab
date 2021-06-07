@@ -1,0 +1,15 @@
+.btn_success {
+    background-color: rgb(106, 201, 106);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn_danger {
+    background-color: rgb(201, 106, 106);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

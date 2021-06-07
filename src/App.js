@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './navbar/Navbar.js';
+import FormField from './formfield/FormField.js';
+import CoolButton from './coolbutton/CoolButton.js';
+//import Signup from './components/Signup';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <h1>Bulma</h1>
+      <FormField inputId="firstName" label="Name" type="text" placeholder="e.g Alex Smith"/>
+      <FormField inputId="email" label="Email" type="email" placeholder="e.g alexsmith@gmail.com"/>
+      <CoolButton className="btn_danger" btnText="Button 1" />
+      <CoolButton className="btn_success"  btnText="Button 2" />
+    </>
+    //<Signup />
   );
-}
+};
 
 export default App;

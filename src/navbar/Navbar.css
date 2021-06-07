@@ -1,0 +1,32 @@
+.nav {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav-login-btn {
+    background-color: rgb(80, 186, 252);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-signup-btn {
+    background-color: rgb(106, 201, 106);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
